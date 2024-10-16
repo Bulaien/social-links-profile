@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--grey-900);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.pic img {
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.name h3 {
+    color: var(--white)
+}
+
+.address {
+    color: var(--green);
+    margin-bottom: 20px;
+
+}
+
+.job p {
+    color: var(--white);
+    font-size: 10px;
+    margin-bottom: 10px;
+    ;
+
+}
+
+.socialMedia p {
+    color: var(--white);
+    padding: 10px;
+    font-weight: 600;
+}
+
+.socialMedia {
+    width: 300px;
+    background-color: var(--grey-700);
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.socialMedia:hover {
+    background-color: var(--green);
+    cursor: pointer;
+
+}
+
+.socialMedia p:hover {
+    color: var(--grey-900);
+    cursor: pointer;
+}
+
+
+.card {
+    background-color: var(--grey-800);
+    border-radius: 10px;
+    padding: 40px 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
